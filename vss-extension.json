@@ -1,0 +1,36 @@
+{
+    "manifestVersion": 1,
+    "id": "azure-traffic-manager",
+    "name": "Azure Traffic Manager",
+    "version": "0.1.0",
+    "publisher": "matteoemili",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],    
+    "description": "Extension to automate interactions with Azure Traffic Manager",
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "icons": {
+        "default": "images/extension-icon.png"        
+    },
+    "files": [
+        {
+            "path": "AzureTrafficManager"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "azure-traffic-manager",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "AzureTrafficManager"
+            }
+        }
+    ]
+}
