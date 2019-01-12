@@ -2,9 +2,14 @@
     "manifestVersion": 1,
     "id": "azure-traffic-manager",
     "name": "Azure Traffic Manager",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "publisher": "matteoemili",
-    "public": "true",    
+    "public": "true",
+    "targets": [
+        {	
+            "id": "Microsoft.VisualStudio.Services"	
+        }	
+    ],
     "description": "Extension to automate interactions with Azure Traffic Manager",
     "categories": [
         "Azure Pipelines"
