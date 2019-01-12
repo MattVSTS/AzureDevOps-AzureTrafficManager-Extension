@@ -4,7 +4,7 @@
     "name": "Azure Traffic Manager",
     "version": "0.1.1",
     "publisher": "matteoemili",
-    "galleryFlags": ["Public", "Preview"],
+    "galleryFlags": ["Preview"],
     "public": "true",    
     "description": "Extension to automate interactions with Azure Traffic Manager",
     "categories": [
