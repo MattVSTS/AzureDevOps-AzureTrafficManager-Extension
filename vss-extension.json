@@ -5,11 +5,7 @@
     "version": "0.1.1",
     "publisher": "matteoemili",
     "galleryFlags": ["Public", "Preview"],
-    "targets": [
-        {
-            "id": "Microsoft.VisualStudio.Services"
-        }
-    ],    
+    "public": "true",    
     "description": "Extension to automate interactions with Azure Traffic Manager",
     "categories": [
         "Azure Pipelines"
