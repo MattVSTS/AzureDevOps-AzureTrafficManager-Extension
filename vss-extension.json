@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "azure-traffic-manager",
     "name": "Azure Traffic Manager",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "publisher": "matteoemili",
     "public": "true",
     "targets": [
@@ -10,7 +10,20 @@
             "id": "Microsoft.VisualStudio.Services"	
         }	
     ],
+    "content": {
+        "details": {
+          "path": "readme.md"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/MattVSTS/AzureDevOps-AzureTrafficManager-Extension"
+    },
     "description": "Extension to automate interactions with Azure Traffic Manager",
+    "scope": [
+        "vso.build",
+        "vso.serviceendpoint"
+    ],
     "categories": [
         "Azure Pipelines"
     ],
