@@ -4,7 +4,7 @@
     "name": "Azure Traffic Manager",
     "version": "0.1.3",
     "publisher": "matteoemili",
-    "public": "true",
+    "public": true,
     "targets": [
         {	
             "id": "Microsoft.VisualStudio.Services"	
