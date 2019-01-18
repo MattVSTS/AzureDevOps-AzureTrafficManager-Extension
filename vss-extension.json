@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "azure-traffic-manager",
     "name": "Azure Traffic Manager",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "publisher": "matteoemili",
     "galleryFlags": [
         "Public",
